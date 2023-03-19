@@ -20,7 +20,7 @@ services:
       - mysql_db
     container_name: cons-node
     # build: . 
-    image: undertarke/node27:v1
+    image: tangkhanhtrung/node27:v2
     environment:
       - DB_HOST=mysql_db
       - DB_DATABASE=db_nodeJS27
